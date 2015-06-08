@@ -183,7 +183,11 @@
 	}
 
 	.bx-wrapper .bx-pager.bx-default-pager a.active {
-		background: rgba(255, 0, 0, 0.6);;
+		background: #ff0000;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a:hover {
+		background: #ff0000;
+		opacity: 0.5;
 	}
 
 	.huge_it_slideshow_image_container_gallery_2 {
@@ -262,7 +266,7 @@
 	input[type="reset"],
 	input[type="submit"] {
 	    position: relative;
-		background: rgba(255, 0, 0, 0.6);;
+		background: #ff0000;;
 		display: inline-block;
 		line-height: 1;
 		padding: 12px 20px;
@@ -336,7 +340,7 @@
 	Links
 	--------------------------------------------------------------*/
 	a {
-		color: rgba(255, 0, 0, 0.6);;
+		color: #ff0000;;
 	}
 
 	/*--------------------------------------------------------------
@@ -528,7 +532,7 @@
 		color: #333;
 	}
 	#secondary h2.widget-title{
-		border-bottom: 1px solid rgba(255, 0, 0, 0.6);;
+		border-bottom: 1px solid #ff0000;;
 		margin-bottom: 10px;
 		line-height: 1.2;
 		font-size: 18px;
@@ -617,7 +621,7 @@
 		position: absolute;
 		left: 20px;
 		top: -14px;
-		background: rgba(255, 0, 0, 0.6);;
+		background: #ff0000;;
 		width: 60px;
 		text-align: center;
 		color: #DDE3E2;
@@ -690,7 +694,7 @@
 		background: #DDE3E2;
 		padding: 10px;
 		margin-bottom: 30px;
-		border-bottom: 3px solid rgba(255, 0, 0, 0.6);;
+		border-bottom: 3px solid #ff0000;;
 	}
 	.entry-thumb{
 		margin: -20px -20px 15px;
@@ -961,7 +965,7 @@
 		z-index: 99999;
 		background: #000;
 		padding: 10px 0;
-		border-bottom: 3px solid rgba(255, 0, 0, 0.6);;
+		border-bottom: 3px solid #ff0000;;
 		position: relative;
 	}
 	#masthead.logo-top{
@@ -1021,7 +1025,7 @@
 		padding: 5px 15px;
 	}
 	.main-navigation > ul > li.current a{
-		color: rgba(255, 0, 0, 0.6);;
+		color: #ff0000;;
 	}
 	.main-navigation a {
 		display: block;
@@ -1054,14 +1058,14 @@
 		border:none;
 	}
 	.main-navigation li:hover > a {
-		color: rgba(255, 0, 0, 0.6);;
+		color: #ff0000;;
 	}
 	.main-navigation ul li:hover > ul {
 		display: block;
 	}
 	.main-navigation .current_page_item > a,
 	.main-navigation .current-menu-item > a {
-		color: rgba(255, 0, 0, 0.6);;
+		color: #ff0000;;
 	}
 	/* Small menu */
 	.menu-toggle {
@@ -1389,8 +1393,8 @@
 		font-family: Bank-Gothic-Medium;
 	}
 	.testimonial-listing .bx-wrapper .bx-controls-direction a:hover{
-	    background: rgba(255, 0, 0, 0.6);;
-	    border: 1px solid rgba(255, 0, 0, 0.6);;
+	    background: #ff0000;;
+	    border: 1px solid #ff0000;;
 	    color:#DDE3E2;
 	}
 	.testimonial-listing .bx-wrapper .bx-controls-direction a.bx-prev{
@@ -1429,7 +1433,7 @@
 		position: absolute;
 		top: 50%;
 		left: 50%;
-		background: rgba(255, 0, 0, 0.6);;
+		background: #ff0000;;
 		border-radius: 50%;
 		font-size: 30px;
 		text-align: center;
@@ -1499,14 +1503,14 @@
 		top: 100%;
 		left: 50%;
 		border-width: 15px;
-		border-color: rgba(255, 0, 0, 0.6);transparent transparent;
+		border-color: #ff0000;transparent transparent;
 		border-style: solid;
 		margin-left: -17px;
 		margin-top: -1px;
 		z-index: -1;
 	}*/
 	.team-image:hover, .team-image.active{
-		border: 2px solid rgba(255, 0, 0, 0.6);;
+		border: 2px solid #ff0000;;
 	}
 	.team-image img{
 		border-radius: 50%;
@@ -1642,20 +1646,20 @@
 	}
 	.blog-list .blog-excerpt{
 		padding: 0 15px 50px;
-		border-bottom: 3px solid rgba(255, 0, 0, 0.6);;
+		border-bottom: 3px solid #ff0000;;
 		position: relative;
 	}
 	.blog-list .blog-excerpt .posted-date{
 		font-size: 14px;
 		font-style: italic;
 		margin-bottom: 5px;
-		color: rgba(255, 0, 0, 0.6);;
+		color: #ff0000;;
 	}
 	.blog-list .blog-excerpt .posted-date .fa{
 		margin-right: 5px;
 	}
 	.blog-list .blog-excerpt span{
-		background: rgba(255, 0, 0, 0.6);;
+		background: #ff0000;;
 		color: #DDE3E2;
 		display: inline-block;
 		position: absolute;
@@ -1769,7 +1773,7 @@
 		display: none;
 		height: 50px;
 		width: 50px;
-		background: rgba(255, 0, 0, 0.6);;
+		background: #ff0000;;
 		text-align: center;
 		line-height: 50px;
 		z-index: 9999;
@@ -1802,7 +1806,7 @@
 		position: relative;
 	}
 	.social-icons a:hover{
-		background:rgba(255, 0, 0, 0.6);
+		background:#ff0000;
 	}
 	.social-icons a span{
 		background: #333;
@@ -1932,7 +1936,7 @@
 			display: block;
 			height: 40px;
 			width: 40px;
-			background-color: rgba(255, 0, 0, 0.6);
+			background-color: #ff0000;
 			text-indent: -9999px;
 			cursor: pointer;
 		}
