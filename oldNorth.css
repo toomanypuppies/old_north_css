@@ -57,7 +57,7 @@
 		box-sizing:         border-box;
 	}
 	body {
-		background: #fff; /* Fallback for when there is no custom background color defined. */
+		background: #DDE3E2; /* Fallback for when there is no custom background color defined. */
 		background: url(images/bg.png);
 	}
 	article,
@@ -164,7 +164,7 @@
 		cursor: help;
 	}
 	mark, ins {
-		background: #fff9c0;
+		background: #DDE3E2;
 		text-decoration: none;
 	}
 	sup,
@@ -195,6 +195,7 @@
 	.one_third {
 	  text-align: center;
 	}
+
 
 	/*--------------------------------------------------------------
 	Elements
@@ -245,10 +246,6 @@
 		border-radius: 20px;
 	}
 
-	.one_fourth_last {
-
-	}
-
 	/*--------------------------------------------------------------
 	Forms
 	--------------------------------------------------------------*/
@@ -270,7 +267,7 @@
 		line-height: 1;
 		padding: 12px 20px;
 		text-decoration: none;
-		color: #ffffff;
+		color: #DDE3E2;
 		-webkit-transition: all 0.3s ease 0s;
 		-o-transition: all 0.3s ease 0s;
 		transition: all 0.3s ease 0s;
@@ -443,7 +440,7 @@
 	}
 
 	#secondary .widget{
-		background: #FFF;
+		background: #DDE3E2;
 		padding: 10px;
 	}
 
@@ -562,7 +559,7 @@
 	}
 	.site-title a{
 		text-decoration: none;
-		color: white;
+		color: #DDE3E2;
 	}
 	.site-description{
 		font-size: 14px;
@@ -570,7 +567,7 @@
 	}
 	.hentry {
 		margin: 0 0 20px;
-		background: #FFF;
+		background: #DDE3E2;
 		padding: 20px;
 		margin-bottom: 40px;
 		position: relative;
@@ -623,7 +620,7 @@
 		background: rgba(255, 0, 0, 0.6);;
 		width: 60px;
 		text-align: center;
-		color: #FFF;
+		color: #DDE3E2;
 		font-family: Bank-Gothic-Medium;
 		font-size: 14px;
 		padding: 10px;
@@ -679,18 +676,18 @@
 		margin-top: 15px;
 	}
 	.edit-link a{
-		color: #FFF;
+		color: #DDE3E2;
 		text-decoration: none;
 	}
 	.edit-link a .fa{
-		color: #FFF;
+		color: #DDE3E2;
 		margin-right: 5px;
 	}
 	.page .entry-footer .edit-link{
 		float: none;
 	}
 	.page-header{
-		background: #FFF;
+		background: #DDE3E2;
 		padding: 10px;
 		margin-bottom: 30px;
 		border-bottom: 3px solid rgba(255, 0, 0, 0.6);;
@@ -711,7 +708,7 @@
 	Comments
 	--------------------------------------------------------------*/
 	#comments{
-		background: #FFF;
+		background: #DDE3E2;
 		padding: 10px;
 		margin-bottom: 15px;
 		font-size: 16px;
@@ -721,7 +718,7 @@
 	}
 	#reply-title{
 		background: #333;
-	    color: #fff;
+	    color: #DDE3E2;
 	    display: inline-block;
 	    padding: 8px 10px;
 	    font-size: 18px;
@@ -809,7 +806,7 @@
 	.reply .comment-reply-link{
 		background: none repeat scroll 0 0 #293037;
 	    border-radius: 3px;
-	    color: #FFFFFF;
+	    color: #DDE3E2;
 	    font-size: 13px;
 	    line-height: 1;
 	    padding: 2px 10px;
@@ -826,7 +823,7 @@
 		position: absolute;
 		left: 50%;
 		top: -20px;
-		color:#FFF;
+		color:#DDE3E2;
 		font-size: 13px;
 		width: :250px;
 		margin-left: -125px;
@@ -1019,7 +1016,7 @@
 	}
 	.main-navigation > ul > li > a{
 		text-transform: uppercase;
-		color: white;
+		color: #DDE3E2;
 		font-size:14px;
 		padding: 5px 15px;
 	}
@@ -1032,7 +1029,7 @@
 		color:#333;
 	}
 	.main-navigation ul ul {
-		background: #FFF;
+		background: #DDE3E2;
 		position: absolute;
 		top: 100%;
 		left:0;
@@ -1107,7 +1104,7 @@
 	.site-main .post-navigation a{
 		background: #333;
 		padding: 8px 25px;
-		color: #FFF;
+		color: #DDE3E2;
 		text-decoration: none;
 		font-size: 14px;
 		font-family: Bank-Gothic-Medium;
@@ -1155,14 +1152,14 @@
 		font-size: 3.5em;
 		font-weight: bold;
 		text-transform: uppercase;
-		color:#FFF;
+		color:#DDE3E2;
 		position: relative;
 		text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 	}
 
 	.slider-caption .caption-description{
 		font-size: 2em;
-		color:#FFF;
+		color:#DDE3E2;
 		position: relative;
 		text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 		font-weight: 300;
@@ -1176,12 +1173,12 @@
 	.btn,
 	.call-to-action a{
 		position: relative;
-		border: 2px solid #ffffff;
+		border: 2px solid #DDE3E2;
 		display: inline-block;
 		line-height: 1;
 		padding: 12px 20px;
 		text-decoration: none;
-		color: #ffffff;
+		color: #DDE3E2;
 		-webkit-transition: all 0.3s ease 0s;
 		-o-transition: all 0.3s ease 0s;
 		transition: all 0.3s ease 0s;
@@ -1191,14 +1188,14 @@
 	.slider-caption .caption-description a:hover, .btn:hover{
 		background: #E56432 !important;
 		border: 2px solid #E56432 !important;
-		color:#FFF !important;
+		color:#DDE3E2 !important;
 	}
 
 	.next-page{
 		position: absolute;
 		height: 60px;
 		width: 60px;
-		border: 1px solid #FFF;
+		border: 1px solid #DDE3E2;
 		border-radius: 50%;
 		bottom:15%;
 		left: 50%;
@@ -1394,7 +1391,7 @@
 	.testimonial-listing .bx-wrapper .bx-controls-direction a:hover{
 	    background: rgba(255, 0, 0, 0.6);;
 	    border: 1px solid rgba(255, 0, 0, 0.6);;
-	    color:#FFF;
+	    color:#DDE3E2;
 	}
 	.testimonial-listing .bx-wrapper .bx-controls-direction a.bx-prev{
 		margin-left:-45px;
@@ -1437,7 +1434,7 @@
 		font-size: 30px;
 		text-align: center;
 		line-height: 60px;
-		color: #FFF;
+		color: #DDE3E2;
 	}
 	.portfolio-list:hover .portfolio-overlay{
 		display: block;
@@ -1448,7 +1445,7 @@
 		padding:15px 10px;
 		bottom: 0;
 		left: 0;
-		color: #FFF;
+		color: #DDE3E2;
 		background: url(images/portfolio-text-bg.png) repeat-x top left;
 		font-size: 16px;
 	}
@@ -1491,7 +1488,7 @@
 		width: 140px;
 		height: 140px;
 		border-radius: 50%;
-		border:2px solid #FFF;
+		border:2px solid #DDE3E2;
 		display: inline-block;
 		margin: 0 0 20px;
 		position: relative;
@@ -1526,7 +1523,7 @@
 		margin-right: 3%;
 		border-radius: 50%;
 		overflow: hidden;
-		border:4px solid #FFF;
+		border:4px solid #DDE3E2;
 	}
 	.team-big-image img{
 		border-radius: 50%;
@@ -1590,7 +1587,7 @@
 		text-transform: uppercase;
 		left: 50%;
 		margin-left: -50px;
-		background: white;
+		background: #DDE3E2;
 		top: 0;
 		color: black;
 		padding: 0 30px 0 20px;
@@ -1626,7 +1623,7 @@
 		float: left;
 		width: 32%;
 		margin-right: 2%;
-		background: #FFF;
+		background: #DDE3E2;
 		text-decoration: none;
 		color: #333;
 	}
@@ -1659,7 +1656,7 @@
 	}
 	.blog-list .blog-excerpt span{
 		background: rgba(255, 0, 0, 0.6);;
-		color: #FFF;
+		color: #DDE3E2;
 		display: inline-block;
 		position: absolute;
 		bottom: 0;
@@ -1682,7 +1679,7 @@
 	--------------------------------------------------------------*/
 	#colophon{
 		background: #000;
-		color: #FFF;
+		color: #DDE3E2;
 		font-size: 15px;
 	}
 
@@ -1707,12 +1704,12 @@
 		position: absolute;
 		top: 100%;
 		width: 40px;
-		border-bottom: 1px solid #FFF;
+		border-bottom: 1px solid #DDE3E2;
 		left: 0;
 		margin-top: 5px;
 	}
 	.top-footer a{
-		color:#FFF;
+		color:#DDE3E2;
 		text-decoration: none;
 	}
 	.top-footer .top-footer-wrap{
@@ -1746,7 +1743,7 @@
 		font-size: 14px;
 	}
 	.bottom-footer a{
-		color: #FFF;
+		color: #DDE3E2;
 	}
 	.copy-right{
 		float:none;
@@ -1779,7 +1776,7 @@
 	}
 	#go-top a{
 		display: block;
-		color: #FFF;
+		color: #DDE3E2;
 	}
 
 	/*--------------------------------------------------------------
@@ -1800,7 +1797,7 @@
 		margin-bottom: 1px;
 		line-height: 30px;
 		text-align: center;
-		color:#FFF;
+		color:#DDE3E2;
 		display: inline-block;
 		position: relative;
 	}
@@ -1971,7 +1968,7 @@
 			float: none;
 		}
 		.main-navigation > ul > li > a{
-			color:#FFF;
+			color:#DDE3E2;
 		}
 		.main-navigation > ul > li.current a,
 		.main-navigation li:hover > a,
@@ -2077,7 +2074,7 @@
 			display: none;
 		}
 		.main-navigation ul ul a{
-			color: #FFF;
+			color: #DDE3E2;
 		}
 		.main-navigation ul ul li{
 			padding: 5px 0;
@@ -2103,6 +2100,9 @@
 			font-size: 14px;
 		}
 		h6{
+			font-size: 12px;
+		}
+		p{
 			font-size: 12px;
 		}
 		.parallax-section h1{
