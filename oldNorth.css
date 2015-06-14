@@ -1,8 +1,18 @@
+
 		@font-face {
-			font-family: Bank-Gothic-Medium;
-			src: url("/wp-content/themes/accesspress-parallax/css/fonts/Bank-Gothic-Medium.ttf");
-			font-weight: normal;
-		}
+		    font-family: "bank_gothicregular";
+		    src: url('/wp-content/themes/accesspress-parallax/css/fonts/bank-gothic-medium.eot'); /* IE9 Compat Modes */
+		    src: url('/wp-content/themes/accesspress-parallax/css/fonts/bank-gothic-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		         url('/wp-content/themes/accesspress-parallax/css/fonts/bank-gothic-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		         url('/wp-content/themes/accesspress-parallax/css/fonts/bank-gothic-medium.woff') format('woff'), /* Pretty Modern Browsers */
+		         url('/wp-content/themes/accesspress-parallax/css/fonts/bank-gothic-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		         url('/wp-content/themes/accesspress-parallax/css/fonts/bank-gothic-medium.svg#bank_gothicregular') format('svg'); /* Legacy iOS */
+
+						font-weight: normal;
+				}
+
+
+
 		/*
 		Theme Name: AccessPress Parallax
 		Theme URI: http://accesspressthemes.com/wordpress-themes/accesspress-parallax/
@@ -57,7 +67,7 @@
 			box-sizing:         border-box;
 		}
 		body {
-			background: #DDE3E2; /* Fallback for when there is no custom background color defined. */
+			background: #DDE3E2; /* Arial for when there is no custom background color defined. */
 			background: url(images/bg.png);
 		}
 		article,
@@ -104,14 +114,14 @@
 		select,
 		textarea {
 			color: #000;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 			line-height: 1.5;
 			font-weight: 300;
 			font-size: 16px;
 		}
 		h1, h2, h3, h4, h5, h6 {
 			clear: both;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 		}
 		h1{
 			font-size: 26px;
@@ -148,7 +158,7 @@
 		}
 		pre {
 			background: #eee;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 			font-size: 15px;
 			line-height: 1.6;
 			margin-bottom: 20px;
@@ -634,7 +644,7 @@
 			width: 60px;
 			text-align: center;
 			color: #DDE3E2;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 			font-size: 14px;
 			padding: 10px;
 			line-height: 1.2;
@@ -665,7 +675,7 @@
 		}
 		.entry-footer{
 			font-size: 14px;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 		}
 		.entry-footer span{
 			margin-right: 15px;
@@ -801,7 +811,7 @@
 		}
 		.commentmetadata{
 			float: right;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 			font-weight: normal;
 			font-size: 12px;
 			font-style: italic;
@@ -1024,7 +1034,7 @@
 		.main-navigation > ul > li {
 			float: left;
 			position: relative;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 		    font-weight: 400;
 		}
 		.main-navigation > ul > li > a{
@@ -1120,7 +1130,7 @@
 			color: #DDE3E2;
 			text-decoration: none;
 			font-size: 14px;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 			display: inline-block;
 		}
 
@@ -1399,7 +1409,7 @@
 			-webkit-transition: all 0.3s ease 0s;
 			-moz-transition: all 0.3s ease 0s;
 			transition: all 0.3s ease 0s;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 		}
 		.testimonial-listing .bx-wrapper .bx-controls-direction a:hover{
 		    background: #ff0000;;
@@ -1821,7 +1831,7 @@
 			background: #333;
 			padding:6px 10px;
 			font-size: 11px;
-			font-family: Bank-Gothic-Medium;
+			font-family: "bank_gothicregular", Arial, sans-serif;
 			text-decoration: none;
 			position: absolute;
 			left: 130%;
